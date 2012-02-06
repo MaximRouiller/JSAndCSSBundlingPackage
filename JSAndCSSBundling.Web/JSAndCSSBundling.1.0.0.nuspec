@@ -10,7 +10,7 @@
       <dependency id="WebActivator" version="1.5" />
     </dependencies>
     <id>JSAndCSSBundling</id>
-    <title />
+    <title>Javascript and CSS Bundling and Minifying</title>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Packaging and configuration for the Microsoft.Web.Optimization package.</description>
     <releaseNotes>First release.</releaseNotes>
