@@ -111,7 +111,7 @@
     <None Include="content\AppStart\JsAndCssBundlingAppStart.cs.pp">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="JSAndCSSBundling.1.0.0.nuspec">
+    <None Include="JSAndCSSBundling.1.0.1.nuspec">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
@@ -150,6 +150,6 @@
     </PreBuildEvent>
   </PropertyGroup>
   <PropertyGroup>
-    <PostBuildEvent>nuget pack JSAndCSSBundling.1.0.0.nuspec</PostBuildEvent>
+    <PostBuildEvent>nuget pack JSAndCSSBundling.1.0.1.nuspec</PostBuildEvent>
   </PropertyGroup>
 </Project>
