@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <version>1.0.0</version>
+    <authors>arch4ngel</authors>
+    <owners />
+    <dependencies>
+      <dependency id="Microsoft.Web.Optimization" version="0.1" />
+      <dependency id="Microsoft.Web.Infrastructure" version="1.0.0.0" />
+      <dependency id="WebActivator" version="1.5" />
+    </dependencies>
+    <id>JSAndCSSBundling</id>
+    <title />
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Packaging and configuration for the Microsoft.Web.Optimization package.</description>
+    <releaseNotes>First release.</releaseNotes>
+    <language>en-CA</language>
+    <tags>js css bundling microsoft web optimization</tags>
+  </metadata>
+  <files>
+    <file src="content\**\*.*" target="content" />
+    <file src="*.dll" target="lib" exclude="*.dll" />
+    <file src="*.pdb" target="lib" exclude="*.pdb" />
+  </files>
+</package>
