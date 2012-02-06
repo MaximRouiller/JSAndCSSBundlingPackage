@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <authors>arch4ngel</authors>
     <owners />
     <dependencies>
@@ -16,6 +16,7 @@
     <releaseNotes>First release.</releaseNotes>
     <language>en-CA</language>
     <tags>js css bundling microsoft web optimization</tags>
+    <projectUrl>https://github.com/MaximRouiller/JSAndCSSBundlingPackage</projectUrl>
   </metadata>
   <files>
     <file src="content\**\*.*" target="content" />
